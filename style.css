@@ -1,0 +1,150 @@
+body {
+    background-color: #CCCCCC;
+}
+
+.cabecalho {
+    background-color: #2a2530;
+}
+
+.social-medias {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.facebook {
+    border-right: 1px solid #cccccc;
+}
+
+.twitter {
+    border-right: 1px solid #cccccc;
+}
+
+.linkedin {
+    border-right: 1px solid #cccccc;
+}
+
+.instagram {
+    margin-right: 30px;
+}
+
+/*.telefone{
+    display: flex;
+    justify-content: first baseline;
+}*/
+
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+.item1 {
+  width: 100%;
+  padding: 10px;
+}
+
+.item2 {
+    width: 100%;
+}
+
+.item3 {
+    width: 100%;
+    color: #ffffff;
+    background-color: #e69d00e1;
+    text-align: center;
+}
+
+/* ul {
+    margin: 0;
+    padding:0;
+} */
+ 
+li {
+    list-style: none; 
+    margin: 5px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* text-align: right; */
+}
+
+li:hover {
+    color: #e69d00e1;
+    font-weight: bold;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.transicao-fotos {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.drivin {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(1, 1, 75, 0.781);
+}
+
+.background-image {
+    /* background-size: auto; */
+    width: 100%;
+}
+
+#container {
+  display: inline-block;
+  position: relative;
+}
+
+#container figcaption {
+  position: absolute;
+  top: 445px;
+  left: 20px;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn1 {
+    font-size: small;
+    background-color: #ffffff;
+    color: black;
+    margin: 2px;
+    height: 30px;
+    width: 80px;
+}
+
+.btn2 {
+    font-size: small;
+    background-color: #ffffff;
+    color: black;
+    margin: 2px;
+    height: 30px;
+    width: 80px;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn1:hover,.btn2:hover {
+    color: #ffffff;
+    background-color: #e69d00e1;
+}
