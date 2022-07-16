@@ -42,8 +42,8 @@ body {
 }
 
 .item1 {
-  width: 100%;
-  padding: 10px;
+    width: 100%;
+    padding: 10px;
 }
 
 .item2 {
@@ -74,13 +74,24 @@ li {
 li:hover {
     color: #e69d00e1;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .get-started {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+   /* padding: 10px;*/  
+    line-height: 50px;
+}
+
+.right-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5px; 
+    line-height: 50px;
+    width: 20px;
 }
 
 .transicao-fotos {
@@ -88,7 +99,7 @@ li:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .drivin {
@@ -98,7 +109,6 @@ li:hover {
 }
 
 .background-image {
-    /* background-size: auto; */
     width: 100%;
 }
 
