@@ -45,16 +45,16 @@ body {
 .drivin {
     width: 100%;
     line-height: 50px;
-    margin-left: 10px;
+    padding-left: 10px;
    /* padding: 10px;*/
 }
 
 .menu {
-    width: 100%;
+    width: 70%;
 }
 
 .getstarted {
-    width: 100%;
+    width: 40%;
     color: #ffffff;
     background-color: #f3bd00;
     text-align: center;
