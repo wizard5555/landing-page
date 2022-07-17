@@ -1,9 +1,10 @@
 body {
-    background-color: #CCCCCC;
+    margin: 0px;
+    background-color: #ffffff;
 }
 
 .cabecalho {
-    background-color: #2a2530;
+    background-color: #47607a;
 }
 
 .social-medias {
@@ -41,21 +42,27 @@ body {
     background-color: #ffffff;
 }
 
-.item1 {
+.drivin {
     width: 100%;
-    padding: 10px;
+    line-height: 50px;
+    margin-left: 10px;
+   /* padding: 10px;*/
 }
 
-.item2 {
+.menu {
     width: 100%;
 }
 
-.item3 {
+.getstarted {
     width: 100%;
     color: #ffffff;
-    background-color: #e69d00e1;
+    background-color: #f3bd00;
     text-align: center;
 }
+
+/*.drivin {
+    line-height:50px;
+}*/
 
 /* ul {
     margin: 0;
@@ -72,7 +79,7 @@ li {
 }
 
 li:hover {
-    color: #e69d00e1;
+    color: #f3bd00;
     font-weight: bold;
     cursor: pointer;
 }
@@ -94,13 +101,14 @@ li:hover {
     width: 20px;
 }
 
-.transicao-fotos {
+/*.transicao-fotos {
+    margin: 0px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-}
+    width: inherit;
+}*/
 
 .drivin {
     font-family: Arial, Helvetica, sans-serif;
@@ -113,8 +121,11 @@ li:hover {
 }
 
 #container {
-  display: inline-block;
-  position: relative;
+  display: block;
+  position: absolute;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 #container figcaption {
@@ -156,5 +167,5 @@ h6 {
 
 .btn1:hover,.btn2:hover {
     color: #ffffff;
-    background-color: #e69d00e1;
+    background-color: #f3bd00;
 }
