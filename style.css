@@ -176,11 +176,23 @@ h6 {
 }
 
 .why-choose-us {
-    border: 1px solid black;
+    margin: auto;
     height: 500px;
+    align: center;
+}
+
+.why-choose-us h4 {
+    color: #f3bd00;
+    font-family: arial;
+    margin-left: 200px;
+}
+
+.why-choose-us h2, p {
+    color: #465e77;
+    font-family: arial;
+    margin-left: 200px;
 }
 
 .meet-the-team {
-    border: 1px solid black;
     height: 500px;
 }
