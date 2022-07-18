@@ -178,7 +178,7 @@ h6 {
 .why-choose-us {
     margin: auto;
     height: 500px;
-    align: center;
+    /* text-align: center; */
 }
 
 .why-choose-us h4 {
@@ -202,4 +202,102 @@ h6 {
 
 .meet-the-team {
     height: 500px;
+}
+
+.container-wcu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.checkbox1 {
+    display: inline;
+    margin-left: 158px;
+}
+
+.fully-licensed {
+    display: inline;
+}
+
+.fully-licensed p {
+    font-weight: bold;
+}
+
+.checkbox2 {
+    display: inline;
+}
+
+.online-tracking {
+    display: inline;
+}
+
+.online-tracking {
+    font-weight: bold;
+}
+
+.meet-the-team {
+    height: 150px;
+}
+
+.meet-the-team h4 {
+    color: #f3bd00;
+    font-family: arial;
+    text-align: center;
+}
+
+.meet-the-team h2 {
+    color: #465e77;
+    font-family: arial;
+    text-align: center;
+}
+
+.container-fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foto1, .foto2, .foto3, .foto4 {
+   width: 160px;
+}
+
+.foto1, .foto2, .foto3, .foto4, h5 {
+    color: #24405e;
+    font-height: bold;
+    text-align: center;
+}
+
+.foto1, .foto2, .foto3, .foto4, h6 {
+    color: #acadae;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0c2b4b;
+    height: 300px;
+}
+
+.get-in-touch, .quick-links, .popular-links, .newsletter p {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.drivin-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+
+.menu-quick-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape {
+    background-color: #4c657e;
 }
