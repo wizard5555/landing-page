@@ -239,8 +239,14 @@ h6 {
 .meet-the-team h4 {
     color: #f3bd00;
     font-family: arial;
-    margin-left: 200px;
+    text-align: center;
 }
+
+.meet-the-team h2 {
+    color: #465e77;
+    font-family: arial;
+    text-align: center;
+
 
 .quick-links {
     background-color: #0c2b4b;
