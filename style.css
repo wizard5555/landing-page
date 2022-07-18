@@ -208,22 +208,39 @@ h6 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    wrap-wrap: nowrap;
 }
 
 .checkbox1 {
     display: inline;
-    height: 100px;
+    margin-left: 158px;
+}
+
+.fully-licensed {
+    display: inline;
+}
+
+.fully-licensed p {
+    font-weight: bold;
+}
+
+.checkbox2 {
+    display: inline;
+}
+
+.online-tracking {
+    display: inline;
+}
+
+.online-tracking {
+    font-weight: bold;
+}
+
+.meet-the-team h4 {
+    color: #f3bd00;
+    font-family: arial;
     margin-left: 200px;
 }
-
-.checkbox1 figcaption {
-    display: inline;
-}
-
-/* .fully-licensed {
-    display: inline;
-    padding: 0px;
-} */
 
 .quick-links {
     background-color: #0c2b4b;
