@@ -270,7 +270,7 @@ h6 {
 
 .foto1, .foto2, .foto3, .foto4, h6 {
     color: #acadae;
-    font-height: bold;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -288,6 +288,10 @@ h6 {
     margin-top: 50px;
 }
 
+.drivin-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+}
 
 
 .rodape {
