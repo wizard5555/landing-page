@@ -274,10 +274,21 @@ h6 {
     text-align: center;
 }
 
-.quick-links {
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #0c2b4b;
     height: 300px;
 }
+
+.get-in-touch, .quick-links, .popular-links, .newsletter p {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
 
 .rodape {
     background-color: #4c657e;
