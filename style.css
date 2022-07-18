@@ -110,6 +110,11 @@ li:hover {
     width: inherit;
 }*/
 
+.transicao-fotos {
+    display: flex;
+    flex-direction: column;
+}
+
 .drivin {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -121,8 +126,8 @@ li:hover {
 }
 
 #container {
-  display: block;
-  position: absolute;
+  /*display: block;
+  position: absolute;*/
   width: 100%;
   margin-left: 0px;
   margin-top: 0px;
@@ -168,4 +173,33 @@ h6 {
 .btn1:hover,.btn2:hover {
     color: #ffffff;
     background-color: #f3bd00;
+}
+
+.why-choose-us {
+    margin: auto;
+    height: 500px;
+    align: center;
+}
+
+.why-choose-us h4 {
+    color: #f3bd00;
+    font-family: arial;
+    margin-left: 200px;
+}
+
+.why-choose-us h2 {
+    color: #465e77;
+    font-family: arial;
+    margin-left: 200px;
+}
+
+.why-choose-us p {
+    color: #465e77;
+    font-family: arial;
+    margin-left: 200px;
+    font-size: small;
+}
+
+.meet-the-team {
+    height: 500px;
 }
