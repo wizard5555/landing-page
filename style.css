@@ -178,7 +178,7 @@ h6 {
 .why-choose-us {
     margin: auto;
     height: 500px;
-    align: center;
+    /* text-align: center; */
 }
 
 .why-choose-us h4 {
