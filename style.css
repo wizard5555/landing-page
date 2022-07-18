@@ -293,6 +293,10 @@ h6 {
     font-size:small;
 }
 
+.menu-quick-links {
+    display: flex;
+    flex-direction: column;
+}
 
 .rodape {
     background-color: #4c657e;
