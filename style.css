@@ -203,3 +203,33 @@ h6 {
 .meet-the-team {
     height: 500px;
 }
+
+.container-wcu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.checkbox1 {
+    display: inline;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.checkbox1 figcaption {
+    display: inline;
+}
+
+/* .fully-licensed {
+    display: inline;
+    padding: 0px;
+} */
+
+.quick-links {
+    background-color: #0c2b4b;
+    height: 300px;
+}
+
+.rodape {
+    background-color: #4c657e;
+}
