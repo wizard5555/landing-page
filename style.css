@@ -258,9 +258,20 @@ h6 {
     justify-content: center;
 }
 
-.container-fotos h6 {
-    color: #465e77;
-    background-color: #cccccc;
+.foto1, .foto2, .foto3, .foto4 {
+   width: 160px;
+}
+
+.foto1, .foto2, .foto3, .foto4, h5 {
+    color: #24405e;
+    font-height: bold;
+    text-align: center;
+}
+
+.foto1, .foto2, .foto3, .foto4, h6 {
+    color: #acadae;
+    font-height: bold;
+    text-align: center;
 }
 
 .quick-links {
