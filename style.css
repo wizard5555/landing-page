@@ -298,6 +298,11 @@ h6 {
     flex-direction: column;
 }
 
+.menu-popular-links {
+    display: flex;
+    flex-direction: column;
+}
+
 .rodape {
     background-color: #4c657e;
 }
